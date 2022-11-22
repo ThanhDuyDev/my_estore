@@ -1,0 +1,92 @@
+//responsive width
+$XS: 480px;
+$XS1: 576px;
+$SM: 768px;
+$SM2: 868px;
+$SM3: 992px;
+$MD: 1024px;
+$L: 1180px;
+$L2: 1200px;
+$L3: 1300px;
+$L4: 1375px;
+$XL: 1380px;
+$XL1: 1400px;
+$XXL: 1441px;
+$XXXL: 1536px;
+$XXXL1: 1600px;
+$XXXXL: 1900px;
+$XXXXL1: 1920px;
+
+//function responsive width
+@mixin responsive($canvas) {
+    @if $canvas==XS {
+      @media only screen and (max-width: $XS) {
+        @content;
+      }
+    } @else if $canvas==XS1 {
+      @media only screen and (max-width: $XS1) {
+        @content;
+      }
+    } @else if $canvas==SM {
+      @media only screen and (max-width: $SM) {
+        @content;
+      }
+    } @else if $canvas==SM2 {
+      @media only screen and (max-width: $SM2) {
+        @content;
+      }
+    } @else if $canvas==SM3 {
+      @media only screen and (max-width: $SM3) {
+        @content;
+      }
+    } @else if $canvas==MD {
+      @media only screen and (max-width: $MD) {
+        @content;
+      }
+    } @else if $canvas==L {
+      @media only screen and (max-width: $L) {
+        @content;
+      }
+    } @else if $canvas==L2 {
+      @media only screen and (max-width: $L2) {
+        @content;
+      }
+    } @else if $canvas==L3 {
+      @media only screen and (max-width: $L3) {
+        @content;
+      }
+    } @else if $canvas==L4 {
+      @media only screen and (max-width: $L4) {
+        @content;
+      }
+    } @else if $canvas==XL {
+      @media only screen and (max-width: $XL) {
+        @content;
+      }
+    } @else if $canvas==XL1 {
+      @media only screen and (max-width: $XL1) {
+        @content;
+      }
+    } @else if $canvas==XXL {
+      @media only screen and (max-width: $XXL) {
+        @content;
+      }
+    } @else if $canvas==XXXL {
+      @media only screen and (max-width: $XXXL) {
+        @content;
+      }
+    } @else if $canvas==XXXL1 {
+      @media only screen and (max-width: $XXXL1) {
+        @content;
+      }
+    } @else if $canvas==XXXXL {
+      @media only screen and (max-width: $XXXXL) {
+        @content;
+      }
+    } @else if $canvas==XXXXL1 {
+      @media only screen and (max-width: $XXXXL1) {
+        @content;
+      }
+    }
+  }
+  

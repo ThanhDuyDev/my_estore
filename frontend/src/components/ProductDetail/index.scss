@@ -1,0 +1,10 @@
+.productDetail {
+    .intro {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 20px;
+        & > div:nth-child(odd) {
+            direction: rtl;
+        }
+    }
+}

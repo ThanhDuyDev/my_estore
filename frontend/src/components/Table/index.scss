@@ -1,0 +1,18 @@
+.customTable {
+    width: 100%;
+    height: fit-content;
+
+    & .col_3 {
+        justify-content: space-between;
+    }
+
+    &_item {
+        & > td {
+            padding: 8px;
+        }
+
+        &>td:nth-child(odd) {
+            background-color: var(--gray);
+        }
+    }
+}
